@@ -1,4 +1,4 @@
-module XSteam
+module XSteamUnits
 using Unitful
 
 
@@ -1567,11 +1567,6 @@ function vx_ps(p,s)
         Out = NaN;
     end
     Out
-end
-
-function check()
-   err=check();
-   err
 end
 
 #***********************************************************************************************************
